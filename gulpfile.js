@@ -16,6 +16,7 @@ gulp.task( 'styles', function() {
 
   gulp.src( './css/style.css' )
     .pipe( $.plumber() )
+    .pipe( $.size({'showFiles': true}) )
     .pipe( $.postcss(processors) )
     .pipe( $.rename('style.min.css')  )
     .pipe( gulp.dest('../www/styles/' ) );

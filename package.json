@@ -25,6 +25,7 @@
     "load-plugins": "~2.1",
     "gulp-rename": "~1.2",
     "gulp-plumber": "~1.0",
+    "gulp-size": "~2.0",
     "gulp-postcss": "~5.1",
     "postcss-pseudoelements": "~2.1",
     "postcss-discard-comments": "~1.2",
