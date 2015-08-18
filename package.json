@@ -1,0 +1,34 @@
+{
+  "name": "mypatternlab-postcss",
+  "author": {
+    "name": "Zendy Wongso"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Implementation of mypatternlab using PostCSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zendy/mypatternlab-postcss.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "patternlab"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "~3.9",
+    "load-plugins": "~2.1",
+    "gulp-rename": "~1.2",
+    "gulp-plumber": "~1.0",
+    "gulp-postcss": "~5.1",
+    "postcss-pseudoelements": "~2.1",
+    "postcss-discard-comments": "~1.2",
+    "autoprefixer": "~5.2",
+    "cssnano": "~2.2"
+  }
+}
