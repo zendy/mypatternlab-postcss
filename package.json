@@ -27,6 +27,7 @@
     "gulp-plumber": "~1.0",
     "gulp-size": "~2.0",
     "gulp-postcss": "~5.1",
+    "postcss-import": "~6.1",
     "postcss-pseudoelements": "~2.1",
     "postcss-discard-comments": "~1.2",
     "autoprefixer": "~5.2",

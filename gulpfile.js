@@ -4,17 +4,18 @@ var cssnano = require( 'cssnano' );
 
 // load plugins
 var $ = require( 'load-plugins' )( 'gulp-*', {strip: 'gulp'} );
-var pc = require( 'load-plugins' )( 'postcss-*', {strip: 'postcss'} );
+var pcss = require( 'load-plugins' )( 'postcss-*', {strip: 'postcss'} );
 
 gulp.task( 'styles', function() {
   var processors = [
     autoprefixer( {browsers: ['last 1 version']} ),
-    cssnano(),
-    pc.discardComments(),
-    pc.pseudoelements()
+    pcss.import(),
+    pcss.discardComments(),
+    pcss.pseudoelements(),
+    cssnano()
   ];
 
-  gulp.src( './css/style.css' )
+  gulp.src( './source/css/style.css' )
     .pipe( $.plumber() )
     .pipe( $.size({'showFiles': true}) )
     .pipe( $.postcss(processors) )
@@ -23,7 +24,7 @@ gulp.task( 'styles', function() {
 });
 
 gulp.task( 'watch', [ 'styles' ], function() {
-  var watcherStyles = gulp.watch( './css/**/*.css', ['styles'] );
+  var watcherStyles = gulp.watch( './source/css/**/*.css', ['styles'] );
   watcherStyles.on( 'change', function ( event ) {
     // added, changed, or deleted
     // The path of the modified file
