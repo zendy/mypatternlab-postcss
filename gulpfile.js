@@ -15,8 +15,9 @@ gulp.task( 'styles', function() {
 
   gulp.src( './source/css/style.css' )
     .pipe( $.plumber() )
-    .pipe( $.size({'showFiles': true}) )
     .pipe( $.postcss(processors) )
+    .pipe( $.minifyCss() )
+    .pipe( $.size({'showFiles': true}) )
     .pipe( $.rename('style.min.css')  )
     .pipe( gulp.dest('../www/styles/' ) );
 });

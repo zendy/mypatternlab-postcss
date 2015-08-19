@@ -25,6 +25,7 @@
     "load-plugins": "~2.1",
     "gulp-rename": "~1.2",
     "gulp-plumber": "~1.0",
+    "gulp-minify-css": "~1.2",
     "gulp-size": "~2.0",
     "gulp-postcss": "~5.1",
     "postcss-import": "~6.1",
