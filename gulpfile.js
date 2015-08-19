@@ -1,6 +1,5 @@
 var gulp = require( 'gulp' );
 var autoprefixer = require( 'autoprefixer' );
-var cssnano = require( 'cssnano' );
 
 // load plugins
 var $ = require( 'load-plugins' )( 'gulp-*', {strip: 'gulp'} );
@@ -11,8 +10,7 @@ gulp.task( 'styles', function() {
     autoprefixer( {browsers: ['last 1 version']} ),
     pcss.import(),
     pcss.discardComments(),
-    pcss.pseudoelements(),
-    cssnano()
+    pcss.pseudoelements()
   ];
 
   gulp.src( './source/css/style.css' )

@@ -30,7 +30,6 @@
     "postcss-import": "~6.1",
     "postcss-pseudoelements": "~2.1",
     "postcss-discard-comments": "~1.2",
-    "autoprefixer": "~5.2",
-    "cssnano": "~2.2"
+    "autoprefixer": "~5.2"
   }
 }
