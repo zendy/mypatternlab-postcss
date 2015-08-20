@@ -21,14 +21,14 @@
 
 
   /* Colors */
-  --brand-primary-color   : #ccc;
-  --brand-secondary-color : #999;
+  --brand-primary-color   : #; /* change accordingly */
+  --brand-secondary-color : #; /* change accordingly */
   --brand-facebook        : #3b5998;
   --brand-twitter         : #00acee;
   --brand-linkedin        : #0e76a8;
   --link-color-normal     : #cc0544;
-  --link-color-hover      : #333;
-  --font-color            : #333;
+  --link-color-hover      : #; /* change accordingly */
+  --font-color            : #; /* change accordingly */
 
 
   /* Typography */
