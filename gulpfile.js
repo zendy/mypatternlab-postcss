@@ -10,6 +10,7 @@ gulp.task( 'styles', function() {
     autoprefixer( {browsers: ['last 1 version']} ),
     pcss.import(),
     pcss.customProperties(),
+    pcss.mixins(),
     pcss.minifyFontWeight(),
     pcss.discardEmpty(),
     pcss.calc(),
