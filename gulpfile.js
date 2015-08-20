@@ -9,6 +9,7 @@ gulp.task( 'styles', function() {
   var processors = [
     autoprefixer( {browsers: ['last 1 version']} ),
     pcss.import(),
+    pcss.customProperties(),
     pcss.minifyFontWeight(),
     pcss.discardEmpty(),
     pcss.calc(),

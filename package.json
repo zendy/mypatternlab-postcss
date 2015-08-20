@@ -29,6 +29,7 @@
     "gulp-size": "~2.0",
     "gulp-postcss": "~5.1",
     "postcss-import": "~6.1",
+    "postcss-custom-properties": "~4.1",
     "postcss-minify-font-weight": "~1.0",
     "postcss-discard-empty": "~1.1",
     "postcss-calc": "~4.1",
