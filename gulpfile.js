@@ -9,7 +9,13 @@ gulp.task( 'styles', function() {
   var processors = [
     autoprefixer( {browsers: ['last 1 version']} ),
     pcss.import(),
-    pcss.discardComments(),
+    pcss.minifyFontWeight(),
+    pcss.discardEmpty(),
+    pcss.calc(),
+    pcss.normalizeUrl(),
+    pcss.mergeLonghand(),
+    pcss.fontFamily(),
+    pcss.colormin(),
     pcss.pseudoelements()
   ];
 
