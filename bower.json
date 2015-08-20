@@ -2,7 +2,7 @@
   "name": "mypatternlab-postcss",
   "version": "0.1.0",
   "devDependencies": {
-    "normalize-css": "~3.0"
+    "normalize-css": "latest"
   },
   "private": true
 }
