@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+
+
+:root {
+  /* Defaults */
+  --default-font-size      : 16px; /* 100% */
+  --default-space          : 1em;
+  --default-space-and-half : var( --default-space ) * 1.5;
+  --default-space-double   : var( --default-space ) * 2;
+  --default-space-triple   : var( --default-space ) * 3;
+  --default-space-quad     : var( --default-space ) * 4;
+  --default-space-half     : var( --default-space ) / 2;
+  --default-space-quarter  : var( --default-space ) / 4;
+  --default-pad            : 1em;
+  --default-pad-and-half   : var( --default-pad ) * 1.5;
+  --default-pad-double     : var( --default-pad ) * 2;
+  --default-pad-half       : var( --default-pad ) / 2;
+  --default-pad-quarter    : var( --default-pad ) / 4;
+
+
+  /* Colors */
+  --brand-primary-color   : #ccc;
+  --brand-secondary-color : #999;
+  --brand-facebook        : #3b5998;
+  --brand-twitter         : #00acee;
+  --brand-linkedin        : #0e76a8;
+  --link-color-normal     : #cc0544;
+  --link-color-hover      : #333;
+  --font-color            : #333;
+
+
+  /* Typography */
+  --font-primary   : '', 'arial', 'sans-serif';
+  --font-secondary : '', 'Times New Roman', serif;
+
+
+  /* Breakpoints */
+  --bp-small    : 20em;
+  --bp-small-2  : 29.75em;
+  --bp-small-3  : 39.8em;
+  --bp-medium   : 46.8em;
+  --bp-medium-2 : 48em;
+  --bp-large    : 50em;
+  --bp-large-2  : 66em;
+  --bp-xl       : 73em;
+  --bp-xxl      : 89em;
+  --bp-xxxl     : 93em;
+}
