@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    HEADING
+\*------------------------------------*/
+/**
+ * h1, .Alpha
+ * h2, .Beta
+ * h3, .Gamma
+ * h4, .Delta
+ * h5, .Teta
+ * h6, .Zeta
+ */
+
+
+h1, .Alpha {
+  @mixin font-size-in-em 109.656;
+}
+
+h2, .Beta {
+  color: red;
+  @mixin font-size-in-em 75;
+}
+
+h3, .Gamma {
+  @mixin font-size-in-em 67.773;
+}
+
+h4, .Delta {
+  @mixin font-size-in-em 41.887;
+}
+
+h5, .Teta {
+  @mixin font-size-in-em 25.888;
+}
+
+h6, .Zeta {
+  @mixin font-size-in-em 17.706;
+}

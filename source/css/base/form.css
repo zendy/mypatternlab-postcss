@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    FORM
+\*------------------------------------*/
+/**
+ * form
+ */
+
+
+form {
+  .FieldRow {
+    margin-bottom: 5px;
+  }
+
+  .FieldRow_Label {
+    display: block;
+  }
+
+  .FieldRow_Input {
+    display: inline-block;
+    border: none;
+  }
+}

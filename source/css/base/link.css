@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    LINK
+\*------------------------------------*/
+/**
+ * a
+ */
+
+
+a {
+  color: var( --link-color-normal );
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: var( --link-color-hover );
+  }
+}
