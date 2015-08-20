@@ -16,7 +16,6 @@ h1, .Alpha {
 }
 
 h2, .Beta {
-  color: red;
   @mixin font-size-in-em 75;
 }
 
