@@ -1,5 +1,79 @@
+/*! Mypatternlab | https://github.com/zendy/mypatternlab-postcss */
+
+
+/*------------------------------------*\
+    PLACEHOLDERS
+\*------------------------------------*/
+@import "placeholder/clearfix.css";
+/*@import "placeholder/animate-fade-in.css";*/
+/*@import "placeholder/animate-fade-out.css";*/
+
+
+/*------------------------------------*\
+    MIXINS
+\*------------------------------------*/
+@import "mixin/font-size-in-em.css";
+
+
+/*------------------------------------*\
+    UTILITIES
+\*------------------------------------*/
+/*@import "utilities/pull-left.css";*/
+/*@import "utilities/pull-right.css";*/
+
 
 /*------------------------------------*\
     GENERIC
 \*------------------------------------*/
-@import "normalize.css/normalize"; /* == @import "./bower_components/normalize.css/normalize.css"; */
+@import "../../bower_components/normalize-css/normalize.css";
+@import "generic/variables.css";
+@import "generic/border-box-sizing.css";
+
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+@import "base/font.css";
+@import "base/body.css";
+@import "base/link.css";
+@import "base/heading.css";
+@import "base/icon.css";
+@import "base/paragraph.css";
+@import "base/list.css";
+@import "base/table.css";
+@import "base/form.css";
+
+
+/*------------------------------------*\
+    COMPONENT
+\*------------------------------------*/
+@import "component/navigation.css";
+@import "component/button.css";
+@import "component/comment.css";
+@import "component/caption.css";
+@import "component/social-link.css";
+@import "component/media-object.css";
+@import "component/slider.css";
+
+
+/*------------------------------------*\
+    TEMPLATE
+\*------------------------------------*/
+@import "template/layout.css";
+
+
+/*------------------------------------*\
+    MODULE
+\*------------------------------------*/
+@import "module/header.css";
+@import "module/hero.css";
+@import "module/aside.css";
+@import "module/main.css";
+@import "module/article.css";
+@import "module/footer.css";
+
+
+/*------------------------------------*\
+    THEME
+\*------------------------------------*/
+@import "theme/homepage.css";
