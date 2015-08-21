@@ -11,6 +11,7 @@ gulp.task( 'styles', function() {
     pcss.import(),
     pcss.customProperties(),
     pcss.mixins(),
+    pcss.extend(),
     pcss.minifyFontWeight(),
     pcss.discardEmpty(),
     pcss.calc(),
