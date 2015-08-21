@@ -34,17 +34,16 @@
   /* Typography */
   --font-primary   : '', 'arial', 'sans-serif';
   --font-secondary : '', 'Times New Roman', serif;
-
-
-  /* Breakpoints */
-  --bp-small    : 20em;
-  --bp-small-2  : 29.75em;
-  --bp-small-3  : 39.8em;
-  --bp-medium   : 46.8em;
-  --bp-medium-2 : 48em;
-  --bp-large    : 50em;
-  --bp-large-2  : 66em;
-  --bp-xl       : 73em;
-  --bp-xxl      : 89em;
-  --bp-xxxl     : 93em;
 }
+
+/* Breakpoints */
+@custom-media --bp-small ( max-width: 20em );
+@custom-media --bp-small-2 ( max-width: 29.75em );
+@custom-media --bp-small-3 ( max-width: 39.8em );
+@custom-media --bp-medium ( max-width: 46.8em );
+@custom-media --bp-medium-2 ( max-width: 48em );
+@custom-media --bp-large ( max-width: 50em );
+@custom-media --bp-large-2 ( max-width: 66em );
+@custom-media --bp-xl ( max-width: 73em );
+@custom-media --bp-xxl ( max-width: 89em );
+@custom-media --bp-xxxl ( max-width: 93em );

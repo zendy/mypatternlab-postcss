@@ -28,3 +28,27 @@
     @include container( $bp-xl );
   }*/
 }
+
+@media ( --bp-small ) {
+  .Container {
+    padding: 0 1em;
+  }
+}
+
+@media ( --bp-medium ) {
+  .Container {
+    padding: 0 1em;
+  }
+}
+
+@media ( --bp-large ) {
+  .Container {
+    padding: 0 1em;
+  }
+}
+
+@media ( --bp-xl ) {
+  .Container {
+    padding: 0 1em;
+  }
+}
