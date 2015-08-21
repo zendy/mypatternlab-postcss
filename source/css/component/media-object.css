@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    MEDIA OBJECT
+\*------------------------------------*/
+/**
+ * .MediaObject
+ * .MediaObject_Image
+ * .MediaObject_Content
+ */
+
+
+.MediaObject {
+  @extend %Clearfix;
+}
+
+.MediaObject_Image {
+  float: left;
+  margin-right: 3%;
+  width: 27%;
+}
+
+.MediaObject_Content {
+  float: right;
+  width: 70%;
+}

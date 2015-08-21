@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    BUTTON
+\*------------------------------------*/
+/**
+ * .Btn
+ * .Btn-Disabled
+ * .Btn-Small
+ * .Btn-Large
+ */
+
+
+.Btn {
+  display: inline-block;
+  padding: var( --default-pad-half );
+  background-color: #fff;
+  border: 0;
+  color: var( --font-color );
+  cursor: pointer;
+  line-height: 1;
+  text-align: center;
+}
+
+.Btn-Disabled {
+  background-color: #f9f9f9;
+  color: #ddd;
+}
+
+.Btn-Small {
+  font-size: @mixin font-size-in-em 14;
+}
+
+.Btn-Large {
+  padding: var( --default-pad-half );
+  font-size: @mixin font-size-in-em 18;
+}

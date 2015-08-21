@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    CAPTION
+\*------------------------------------*/
+/**
+ * .Caption
+ */
+
+
+.Caption {
+  display: block;
+  padding: var( --default-pad-double );
+  background-color: #333;
+  color: #fff;
+}
