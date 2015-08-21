@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+/**
+ * .Container
+ */
+
+.Container {
+  @extend %Clearfix;
+
+  /*@include susy-breakpoint( $bp-small, $layout-small ) {
+    padding: 0 1em;
+    @include container( $bp-small );
+  }
+
+  @include susy-breakpoint( $bp-medium, $layout-medium ) {
+    padding: 0 1em;
+    @include container( $bp-medium );
+  }
+
+  @include susy-breakpoint( $bp-large, $layout-large ) {
+    padding: 0 2em;
+    @include container( $bp-large );
+  }
+
+  @include susy-breakpoint( $bp-xl, $layout-xl, $no-query: true ) {
+    padding: 0 2em;
+    @include container( $bp-xl );
+  }*/
+}
